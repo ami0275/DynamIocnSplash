@@ -1,0 +1,24 @@
+# Android Studio
+*.iml
+.gradle
+/local.properties # Already have local.properties, this one is redundant if not differently cased
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml # Good, but can be covered by a broader .idea/ rule
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# macOS
+.DS_Store
+
+# Build Output
+/build
+/captures
+
+# Native Build Output
+.externalNativeBuild # Older, usually covered by build/
+.cxx # CMake/ndk-build intermediates, usually in build/
+
+# Duplicate
+local.properties # This is a duplicate of /local.properties

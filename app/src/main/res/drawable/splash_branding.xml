@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="40dp"
+    android:viewportWidth="200"
+    android:viewportHeight="40">
+    <!-- Example: simple brand bar -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,30 L200,30 L200,40 L0,40 Z"/>
+</vector>
+

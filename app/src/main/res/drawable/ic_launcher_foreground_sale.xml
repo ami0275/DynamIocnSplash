@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Price tag shape -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M20,40 L70,10 L90,30 L60,80 Z"/>
+
+    <!-- Circle hole in tag -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,20
+                          a5,5 0 1,0 0.0001,0"/>
+</vector>
+
+

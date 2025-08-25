@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamic App Icon Demo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/currentFlavorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Current: Default" />
+
+    <Button
+        android:id="@+id/btnDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Default Icon"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnHalloween"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Halloween Icon 🎃"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Sale Icon 🛍"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="Tip: On Android 13+, themed icons tint automatically when enabled."
+        />
+
+</LinearLayout>
