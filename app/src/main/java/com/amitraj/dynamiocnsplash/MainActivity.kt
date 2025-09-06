@@ -15,7 +15,6 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.MainThread
 import androidx.annotation.RequiresApi
-import androidx.appcompat.content.res.AppCompatResources
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
@@ -33,9 +32,6 @@ import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import coil.Coil
 import coil.request.CachePolicy
 import coil.request.ImageRequest
-import com.amitraj.dynamiocnsplash.App.Companion.restartApp
-import kotlinx.coroutines.delay
-import java.util.logging.Handler
 
 class MainActivity : ComponentActivity() {
 

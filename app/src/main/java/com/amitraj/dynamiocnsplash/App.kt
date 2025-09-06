@@ -19,4 +19,9 @@ class App : Application() {
             Runtime.getRuntime().exit(0)
         }
     }
+
+    override fun onCreate() {
+        super.onCreate()
+        IconWorkScheduler.startFastRotation(this)
+    }
 }
